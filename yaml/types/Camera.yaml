@@ -28,21 +28,21 @@ Properties:
     IsReadOnly: false
     IsObsolete: false
     IsStatic: false
-    Description: The camera's minimum distance from the player in Follow mode.
+    Description: The camera's minimum distance from the target in Follow mode.
   - Name: MaxDistance
     Type: number
     IsAccessibleByScripts: true
     IsReadOnly: false
     IsObsolete: false
     IsStatic: false
-    Description: Determines camera's maximum distance from the player in Follow mode.
+    Description: Determines camera's maximum distance from the target in Follow mode.
   - Name: Distance
     Type: number
     IsAccessibleByScripts: true
     IsReadOnly: false
     IsObsolete: false
     IsStatic: false
-    Description: Determines the distance between the camera and the player when the
+    Description: Determines the distance between the camera and the target when the
       camera is in Follow mode.
   - Name: ScrollSensitivity
     Type: number

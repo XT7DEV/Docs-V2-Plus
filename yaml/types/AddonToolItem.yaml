@@ -11,4 +11,4 @@ IsStatic: false
 IsAbstract: false
 IsInstantiable: false
 StaticAlias: null
-Description: AddonToolItem represents a tool item in the tools menu
+Description: AddonToolItem represents a tool item in the tools menu of the addon.
