@@ -1,4 +1,7 @@
 Name: InputService
+Description: InputService is a class used for retrieving user input data, such
+  as the mouse and keyboard.
+Category: services
 BaseType: Instance
 Properties:
   - Name: IsWindowFocused
@@ -226,5 +229,3 @@ IsStatic: true
 IsAbstract: false
 IsInstantiable: false
 StaticAlias: Input
-Description: InputService is a class used for retrieving user input data, such
-  as the mouse and keyboard.

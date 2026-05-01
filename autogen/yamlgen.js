@@ -53,17 +53,11 @@ if (fs.existsSync(yamlEnumPath)) {
 for (const c of data.Classes) {
     let yamlPath = path.join(yamlAPIPath, c.Name + ".yaml")
 
-    let obj = {
-        ...c,
-        Properties: [],
-        Methods: [],
-        Events: [],
-    }
-
     // Load existing data if file exists
     let existingDescriptions = { Properties: {}, Methods: {}, Events: {} };
     let existingArguments = { Events: {} };
     let existingClassDescription = "Missing Documentation";
+    let existingClassCategory = "";
 
     if (fs.existsSync(yamlPath)) {
         const existingYaml = fs.readFileSync(yamlPath, "utf-8");
@@ -72,6 +66,11 @@ for (const c of data.Classes) {
         // Preserve existing class description
         if (existingData.Description) {
             existingClassDescription = existingData.Description;
+        }
+
+        // Preserve existing category
+        if (existingData.Category) {
+            existingClassCategory = existingData.Category;
         }
 
         // Build lookup maps for existing descriptions
@@ -106,8 +105,16 @@ for (const c of data.Classes) {
         }
     }
 
-    // Add class description
-    obj.Description = existingClassDescription;
+    let obj = {
+        Name: c.Name,
+        Description: existingClassDescription,
+        Category: existingClassCategory,
+        BaseType: c.BaseType,
+        ...c,
+        Properties: [],
+        Methods: [],
+        Events: [],
+    }
 
     // Add properties
     for (const prop of c.Properties) {

@@ -1,4 +1,6 @@
 Name: Stats
+Description: Stats is a collection of Stat objects used to manage player stats.
+Category: game
 BaseType: Instance
 Properties: []
 Methods:
@@ -14,4 +16,3 @@ IsStatic: true
 IsAbstract: false
 IsInstantiable: false
 StaticAlias: Stats
-Description: Stats is a collection of Stat objects used to manage player stats.

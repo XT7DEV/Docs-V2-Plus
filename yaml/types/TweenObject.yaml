@@ -1,4 +1,6 @@
 Name: TweenObject
+Description: An object that represents tween
+Category: misc
 BaseType: null
 Properties:
   - Name: Looped
@@ -22,6 +24,20 @@ Properties:
     IsObsolete: false
     IsStatic: false
     Description: Determines the speed scale of this tween
+  - Name: Direction
+    Type: TweenDirectionEnum
+    IsAccessibleByScripts: true
+    IsReadOnly: false
+    IsObsolete: false
+    IsStatic: false
+    Description: Determines the tween direction.
+  - Name: Transition
+    Type: TweenTransitionEnum
+    IsAccessibleByScripts: true
+    IsReadOnly: false
+    IsObsolete: false
+    IsStatic: false
+    Description: Determines the tween transition.
   - Name: IsRunning
     Type: boolean
     IsAccessibleByScripts: true
@@ -275,7 +291,7 @@ Methods:
   - Name: Cancel
     ReturnType: nil
     Parameters:
-      - Name: callFinsihed
+      - Name: callFinished
         Type: boolean
         IsOptional: true
         DefaultValue: "False"
@@ -296,4 +312,3 @@ IsStatic: false
 IsAbstract: false
 IsInstantiable: false
 StaticAlias: null
-Description: An object that represents tween

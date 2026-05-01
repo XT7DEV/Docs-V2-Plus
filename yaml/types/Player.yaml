@@ -1,4 +1,6 @@
 Name: Player
+Description: Player represents a user playing the game.
+Category: game
 BaseType: NPC
 Properties:
   - Name: UserID
@@ -99,6 +101,13 @@ Properties:
     IsObsolete: false
     IsStatic: false
     Description: Player's assigned team
+  - Name: MovementMode
+    Type: PlayerMovementModeEnum
+    IsAccessibleByScripts: true
+    IsReadOnly: false
+    IsObsolete: false
+    IsStatic: false
+    Description: Determine the movement mode for the player.
   - Name: NetworkPing
     Type: number
     IsAccessibleByScripts: true
@@ -241,4 +250,3 @@ IsStatic: false
 IsAbstract: false
 IsInstantiable: false
 StaticAlias: null
-Description: Player represents a user playing the game.

@@ -60,6 +60,11 @@ def define_env(env):
         return "Inherits %s\n{ data-search-exclude }" % (getClassLink(className))
 
     @env.macro
+    def inherited_by(classNames):
+        links = ", ".join(getClassLink(name) for name in classNames)
+        return "Inherited by %s\n{ data-search-exclude }" % links
+
+    @env.macro
     def directory(category):
         return '\n'.join(["- " + item for item in getDirectory(category)])
 

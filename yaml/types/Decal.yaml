@@ -1,4 +1,7 @@
 Name: Decal
+Description: Decals are objects that can have an image texture and are wrapped
+  around other objects.
+Category: elements
 BaseType: Dynamic
 Properties:
   - Name: Image
@@ -28,5 +31,3 @@ IsStatic: false
 IsAbstract: false
 IsInstantiable: true
 StaticAlias: null
-Description: Decals are objects that can have an image texture and are wrapped
-  around other objects.

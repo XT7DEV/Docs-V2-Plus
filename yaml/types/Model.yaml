@@ -1,4 +1,7 @@
 Name: Model
+Description: Model is an instance that can hold other instances, and which
+  transform affects its children.
+Category: world
 BaseType: Dynamic
 Properties: []
 Methods: []
@@ -7,5 +10,3 @@ IsStatic: false
 IsAbstract: false
 IsInstantiable: true
 StaticAlias: null
-Description: Model is an instance that can hold other instances, and which
-  transform affects its children.

@@ -1,4 +1,7 @@
 Name: Environment
+Description: Environment is the primary object intended for storing active
+  objects in the place.
+Category: game
 BaseType: Instance
 Properties:
   - Name: CurrentCamera
@@ -148,5 +151,3 @@ IsStatic: true
 IsAbstract: false
 IsInstantiable: false
 StaticAlias: Environment
-Description: Environment is the primary object intended for storing active
-  objects in the place.

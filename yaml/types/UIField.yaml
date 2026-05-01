@@ -1,4 +1,6 @@
 Name: UIField
+Description: UIField is the abstract base class of all UI classes.
+Category: ui
 BaseType: Instance
 Properties:
   - Name: PositionOffset
@@ -136,4 +138,3 @@ IsStatic: false
 IsAbstract: false
 IsInstantiable: true
 StaticAlias: null
-Description: UIField is the abstract base class of all UI classes.

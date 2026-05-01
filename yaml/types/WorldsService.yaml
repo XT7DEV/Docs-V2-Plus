@@ -1,4 +1,8 @@
 Name: WorldsService
+Description: \!! WIP Class, WorldsService is a service that is used to join
+  players to other worlds. This class is currently unavailable in public
+  servers. **This is not recommended for use at this time.**
+Category: services
 BaseType: Instance
 Properties: []
 Methods:
@@ -12,7 +16,7 @@ Methods:
     IsAsync: true
     IsObsolete: false
     IsStatic: false
-    Description: Request a new server of world path
+    Description: Request a new server with data
   - Name: NewServerAsync
     ReturnType: string
     Parameters:
@@ -89,5 +93,3 @@ IsStatic: true
 IsAbstract: false
 IsInstantiable: false
 StaticAlias: Worlds
-Description: \!! WIP Class, WorldsService is a service that is used to join players
-  to other worlds. This class is currently unavailable in public servers. **This is not recommended for use at this time.**

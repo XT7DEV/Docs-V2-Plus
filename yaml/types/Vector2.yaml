@@ -1,4 +1,6 @@
 Name: Vector2
+Description: Vector2 is a 2D vector with an x and y component.
+Category: types
 BaseType: null
 Properties:
   - Name: X
@@ -128,7 +130,7 @@ Methods:
     IsStatic: true
     Description: Returns the angle in degrees between from and to.
   - Name: Cross
-    ReturnType: Vector2
+    ReturnType: number
     Parameters:
       - Name: lhs
         Type: Vector2
@@ -301,9 +303,82 @@ Methods:
     IsObsolete: false
     IsStatic: true
     Description: Spherically interpolates between two vectors.
+  - Name: Floor
+    ReturnType: Vector2
+    Parameters:
+      - Name: val
+        Type: Vector2
+        IsOptional: false
+        DefaultValue: ""
+    IsAsync: false
+    IsObsolete: false
+    IsStatic: true
+    Description: Missing Documentation
+  - Name: Ceil
+    ReturnType: Vector2
+    Parameters:
+      - Name: val
+        Type: Vector2
+        IsOptional: false
+        DefaultValue: ""
+    IsAsync: false
+    IsObsolete: false
+    IsStatic: true
+    Description: Missing Documentation
+  - Name: Round
+    ReturnType: Vector2
+    Parameters:
+      - Name: val
+        Type: Vector2
+        IsOptional: false
+        DefaultValue: ""
+    IsAsync: false
+    IsObsolete: false
+    IsStatic: true
+    Description: Missing Documentation
+  - Name: Abs
+    ReturnType: Vector2
+    Parameters:
+      - Name: val
+        Type: Vector2
+        IsOptional: false
+        DefaultValue: ""
+    IsAsync: false
+    IsObsolete: false
+    IsStatic: true
+    Description: Missing Documentation
+  - Name: Sign
+    ReturnType: Vector2
+    Parameters:
+      - Name: val
+        Type: Vector2
+        IsOptional: false
+        DefaultValue: ""
+    IsAsync: false
+    IsObsolete: false
+    IsStatic: true
+    Description: Missing Documentation
+  - Name: Clamp
+    ReturnType: Vector2
+    Parameters:
+      - Name: val
+        Type: Vector2
+        IsOptional: false
+        DefaultValue: ""
+      - Name: min
+        Type: Vector2
+        IsOptional: false
+        DefaultValue: ""
+      - Name: max
+        Type: Vector2
+        IsOptional: false
+        DefaultValue: ""
+    IsAsync: false
+    IsObsolete: false
+    IsStatic: true
+    Description: Missing Documentation
 Events: []
 IsStatic: false
 IsAbstract: false
 IsInstantiable: false
 StaticAlias: null
-Description: Vector2 is a 2D vector with an x and y component.

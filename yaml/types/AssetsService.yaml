@@ -1,4 +1,6 @@
 Name: AssetsService
+Description: Service for managing/loading assets
+Category: services
 BaseType: Instance
 Properties: []
 Methods:
@@ -29,4 +31,3 @@ IsStatic: true
 IsAbstract: false
 IsInstantiable: false
 StaticAlias: Assets
-Description: Service for managing/loading assets

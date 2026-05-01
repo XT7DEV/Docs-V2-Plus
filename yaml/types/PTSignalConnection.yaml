@@ -1,4 +1,6 @@
 Name: PTSignalConnection
+Description: PTSignalConnection represents a signal for this connection
+Category: scripting
 BaseType: null
 Properties: []
 Methods:
@@ -14,4 +16,3 @@ IsStatic: false
 IsAbstract: false
 IsInstantiable: false
 StaticAlias: null
-Description: PTSignalConnection represents a signal for this connection

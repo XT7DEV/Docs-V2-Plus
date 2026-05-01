@@ -1,4 +1,6 @@
 Name: InputActionVector2
+Description: InputActionVector2 is a class that represents input action of Vector2 type.
+Category: input
 BaseType: InputAction
 Properties:
   - Name: Up
@@ -42,4 +44,3 @@ IsStatic: false
 IsAbstract: false
 IsInstantiable: false
 StaticAlias: null
-Description: InputActionVector2 is a class that represents input action of Vector2 type.

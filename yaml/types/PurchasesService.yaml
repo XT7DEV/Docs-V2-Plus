@@ -1,4 +1,6 @@
 Name: PurchasesService
+Description: Service responsible for handling in-game purchases and ownership verification.
+Category: services
 BaseType: Instance
 Properties: []
 Methods:
@@ -38,4 +40,3 @@ IsStatic: true
 IsAbstract: false
 IsInstantiable: false
 StaticAlias: Purchases
-Description: Service responsible for handling in-game purchases and ownership verification.

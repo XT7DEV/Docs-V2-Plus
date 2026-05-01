@@ -1,4 +1,7 @@
 Name: GradientImageAsset
+Description: GradientImageAsset is a class that provides gradient image that can
+  be dynamically changed.
+Category: assets
 BaseType: ImageAsset
 Properties:
   - Name: Series
@@ -49,5 +52,3 @@ IsStatic: false
 IsAbstract: false
 IsInstantiable: true
 StaticAlias: null
-Description: GradientImageAsset is a class that provides gradient image that can
-  be dynamically changed.

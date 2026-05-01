@@ -1,4 +1,7 @@
 Name: ProceduralSky
+Description: ProceduralSky is a type of sky that generates its appearance
+  procedurally based on the position of the sun and its properties.
+Category: lighting
 BaseType: Sky
 Properties:
   - Name: SunSize
@@ -42,5 +45,3 @@ IsStatic: false
 IsAbstract: false
 IsInstantiable: true
 StaticAlias: null
-Description: ProceduralSky is a type of sky that generates its appearance
-  procedurally based on the position of the sun and its properties.

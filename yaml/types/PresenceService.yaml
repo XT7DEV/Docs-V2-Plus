@@ -1,4 +1,8 @@
 Name: PresenceService
+Description: PresenceService is a service that allows ClientScripts to set the
+  active status of the player. Which will be used to display in supported
+  integrations.
+Category: services
 BaseType: Instance
 Properties:
   - Name: State
@@ -28,5 +32,3 @@ IsStatic: true
 IsAbstract: false
 IsInstantiable: false
 StaticAlias: Presence
-Description: PresenceService is a service that allows ClientScripts to set the active
-  status of the player. Which will be used to display in supported integrations.

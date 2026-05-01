@@ -1,4 +1,6 @@
 Name: UIScrollView
+Description: UIScrollView is a class that allows the user to scroll content within a view.
+Category: ui
 BaseType: UIContainer
 Properties:
   - Name: HorizontalScrollMode
@@ -21,4 +23,3 @@ IsStatic: false
 IsAbstract: false
 IsInstantiable: true
 StaticAlias: null
-Description: UIScrollView is a class that allows the user to scroll content within a view.

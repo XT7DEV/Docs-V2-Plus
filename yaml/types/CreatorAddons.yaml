@@ -1,4 +1,6 @@
 Name: CreatorAddons
+Description: Service for managing addons
+Category: addons
 BaseType: Instance
 Properties: []
 Methods:
@@ -18,4 +20,3 @@ IsStatic: true
 IsAbstract: false
 IsInstantiable: false
 StaticAlias: Addons
-Description: Service for managing addons

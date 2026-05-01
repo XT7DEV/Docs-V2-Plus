@@ -1,4 +1,7 @@
 Name: Team
+Description: Team is an object that represents a player team to which players
+  can be assigned.
+Category: game
 BaseType: Instance
 Properties:
   - Name: DisplayName
@@ -22,7 +25,8 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
-    Description: Returns the display name of the team. If DisplayName is specified, it returns DisplayName; otherwise, it returns Name.
+    Description: Returns the display name of the team. If DisplayName is specified,
+      it returns DisplayName; otherwise, it returns Name.
   - Name: GetPlayers
     ReturnType: "{ Player }"
     Parameters: []
@@ -35,4 +39,3 @@ IsStatic: false
 IsAbstract: false
 IsInstantiable: true
 StaticAlias: null
-Description: Team is an object that represents a player team to which players can be assigned.

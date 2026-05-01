@@ -1,10 +1,12 @@
 Name: InputActionButton
+Description: InputActionButton is a class that represents input action of button type.
+Category: input
 BaseType: InputAction
 Properties:
   - Name: Buttons
     Type: InputButtonCollection
     IsAccessibleByScripts: true
-    IsReadOnly: true
+    IsReadOnly: false
     IsObsolete: false
     IsStatic: false
     Description: Collection of button inputs.
@@ -37,4 +39,3 @@ IsStatic: false
 IsAbstract: false
 IsInstantiable: false
 StaticAlias: null
-Description: InputActionButton is a class that represents input action of button type.

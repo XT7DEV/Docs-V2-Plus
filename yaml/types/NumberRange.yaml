@@ -1,4 +1,7 @@
 Name: NumberRange
+Description: NumberRange is a data type that represents a range between two
+  numbers, defined by a minimum and maximum value.
+Category: types
 BaseType: null
 Properties:
   - Name: Min
@@ -49,5 +52,3 @@ IsStatic: false
 IsAbstract: false
 IsInstantiable: false
 StaticAlias: null
-Description: NumberRange is a data type that represents a range between two
-  numbers, defined by a minimum and maximum value.

@@ -1,4 +1,6 @@
 Name: Part
+Description: Parts represent the basic building blocks of the world.
+Category: world
 BaseType: Entity
 Properties:
   - Name: Shape
@@ -35,4 +37,3 @@ IsStatic: false
 IsAbstract: false
 IsInstantiable: true
 StaticAlias: null
-Description: Parts represent the basic building blocks of the world.

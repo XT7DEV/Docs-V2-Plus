@@ -1,4 +1,6 @@
 Name: BuiltInAudioAsset
+Description: Audio asset that's built-in with the client
+Category: assets
 BaseType: AudioAsset
 Properties:
   - Name: AudioPreset
@@ -14,4 +16,3 @@ IsStatic: false
 IsAbstract: false
 IsInstantiable: true
 StaticAlias: null
-Description: Audio asset that's built-in with the client

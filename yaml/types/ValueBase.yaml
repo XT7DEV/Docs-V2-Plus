@@ -1,4 +1,6 @@
 Name: ValueBase
+Description: ValueBase is an abstract base class for objects that hold a value.
+Category: values
 BaseType: Instance
 Properties: []
 Methods: []
@@ -11,4 +13,3 @@ IsStatic: false
 IsAbstract: true
 IsInstantiable: false
 StaticAlias: null
-Description: ValueBase is an abstract base class for objects that hold a value.

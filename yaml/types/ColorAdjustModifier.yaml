@@ -1,4 +1,7 @@
 Name: ColorAdjustModifier
+Description: ColorAdjustModifier is a LightingModifier that allows the
+  adjustment of lighting
+Category: elements
 BaseType: LightingModifier
 Properties:
   - Name: Brightness
@@ -35,5 +38,3 @@ IsStatic: false
 IsAbstract: false
 IsInstantiable: true
 StaticAlias: null
-Description: ColorAdjustModifier is a LightingModifier that allows the
-  adjustment of lighting

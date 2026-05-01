@@ -1,4 +1,7 @@
 Name: DatastoreService
+Description: Datastore (not to be confused with the Datastore data type) is a
+  service used for storing data between place sessions.
+Category: services
 BaseType: Instance
 Properties: []
 Methods:
@@ -18,5 +21,3 @@ IsStatic: true
 IsAbstract: false
 IsInstantiable: false
 StaticAlias: Datastore
-Description: Datastore (not to be confused with the Datastore data type) is a
-  service used for storing data between place sessions.

@@ -1,4 +1,6 @@
 Name: Teams
+Description: Teams is a collection of Team objects used to manage player teams.
+Category: game
 BaseType: Instance
 Properties: []
 Methods:
@@ -14,4 +16,3 @@ IsStatic: true
 IsAbstract: false
 IsInstantiable: false
 StaticAlias: Teams
-Description: Teams is a collection of Team objects used to manage player teams.

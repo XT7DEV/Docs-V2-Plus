@@ -1,4 +1,6 @@
 Name: GradientSky
+Description: GradientSky is a class that is used to set a gradient skybox in the world.
+Category: lighting
 BaseType: Sky
 Properties:
   - Name: SunDiscColor
@@ -91,4 +93,3 @@ IsStatic: false
 IsAbstract: false
 IsInstantiable: true
 StaticAlias: null
-Description: GradientSky is a class that is used to set a gradient skybox in the world.

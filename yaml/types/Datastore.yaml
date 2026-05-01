@@ -1,4 +1,6 @@
 Name: Datastore
+Description: Datastore is an object that represent datastore connection.
+Category: scripting
 BaseType: null
 Properties:
   - Name: Key
@@ -60,4 +62,3 @@ IsStatic: false
 IsAbstract: false
 IsInstantiable: false
 StaticAlias: null
-Description: Datastore is an object that represent datastore connection.

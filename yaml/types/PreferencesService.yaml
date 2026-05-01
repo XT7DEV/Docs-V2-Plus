@@ -1,4 +1,7 @@
 Name: PreferencesService
+Description: PreferencesService is a service that allows scripts to access some
+  of the user preferences
+Category: services
 BaseType: Instance
 Properties:
   - Name: UsePhotoMode
@@ -37,5 +40,3 @@ IsStatic: true
 IsAbstract: false
 IsInstantiable: false
 StaticAlias: Preferences
-Description: PreferencesService is a service that allows scripts to access some
-  of the user preferences

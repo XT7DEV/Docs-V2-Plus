@@ -1,4 +1,6 @@
 Name: Bounds
+Description: Represents a bounding box in 3D space.
+Category: types
 BaseType: null
 Properties:
   - Name: Center
@@ -195,4 +197,3 @@ IsStatic: false
 IsAbstract: false
 IsInstantiable: false
 StaticAlias: null
-Description: Represents a bounding box in 3D space.

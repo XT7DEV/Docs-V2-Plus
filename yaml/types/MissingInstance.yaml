@@ -1,4 +1,6 @@
 Name: MissingInstance
+Description: Default instance that's created when instance is invalid.
+Category: misc
 BaseType: Instance
 Properties: []
 Methods: []
@@ -7,4 +9,3 @@ IsStatic: false
 IsAbstract: false
 IsInstantiable: false
 StaticAlias: null
-Description: Default instance that's created when instance is invalid.

@@ -1,4 +1,6 @@
 Name: PolytorianModel
+Description: PolytorianModel is a CharacterModel that represent default Polytoria Character.
+Category: world
 BaseType: CharacterModel
 Properties:
   - Name: HeadColor
@@ -145,4 +147,3 @@ IsStatic: false
 IsAbstract: false
 IsInstantiable: true
 StaticAlias: null
-Description: PolytorianModel is a CharacterModel that represent default Polytoria Character.

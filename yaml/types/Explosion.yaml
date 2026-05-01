@@ -1,4 +1,7 @@
 Name: Explosion
+Description: Explosion is a deadly explosion killing players and applying force
+  to parts at the given position.
+Category: effects
 BaseType: Dynamic
 Properties:
   - Name: Radius
@@ -60,5 +63,3 @@ IsStatic: false
 IsAbstract: false
 IsInstantiable: true
 StaticAlias: null
-Description: Explosion is a deadly explosion killing players and applying force
-  to parts at the given position.

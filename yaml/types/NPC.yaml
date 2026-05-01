@@ -1,6 +1,17 @@
 Name: NPC
+Description: NPC (non-player character) is an object similar to a  Player but
+  that can be controlled by code. Like players, it can walk and jump, and its
+  body part colors can be customized.
+Category: world
 BaseType: Physical
 Properties:
+  - Name: Velocity
+    Type: Vector3
+    IsAccessibleByScripts: true
+    IsReadOnly: false
+    IsObsolete: false
+    IsStatic: false
+    Description: Determines the linear velocity of this NPC.
   - Name: SeatOffset
     Type: Vector3
     IsAccessibleByScripts: true
@@ -149,6 +160,17 @@ Properties:
     IsStatic: false
     Description: Indicates whether the navigation destination is valid.
 Methods:
+  - Name: Move
+    ReturnType: nil
+    Parameters:
+      - Name: velo
+        Type: Vector3
+        IsOptional: false
+        DefaultValue: ""
+    IsAsync: false
+    IsObsolete: false
+    IsStatic: false
+    Description: Move this NPC while respecting collisions.
   - Name: Kill
     ReturnType: nil
     Parameters: []
@@ -156,6 +178,13 @@ Methods:
     IsObsolete: false
     IsStatic: false
     Description: Kills the NPC.
+  - Name: TryStepUp
+    ReturnType: boolean
+    Parameters: []
+    IsAsync: false
+    IsObsolete: false
+    IsStatic: false
+    Description: Try to detect stairs and step up. Returns true if the NPC has stepped up.
   - Name: Jump
     ReturnType: nil
     Parameters: []
@@ -278,6 +307,3 @@ IsStatic: false
 IsAbstract: false
 IsInstantiable: true
 StaticAlias: null
-Description: NPC (non-player character) is an object similar to a  Player but
-  that can be controlled by code. Like players, it can walk and jump, and its
-  body part colors can be customized.

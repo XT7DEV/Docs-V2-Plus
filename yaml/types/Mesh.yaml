@@ -1,4 +1,8 @@
 Name: Mesh
+Description: Represents a part that can have custom mesh applied to it, the mesh
+  may be from the Polytoria Store (Hats, Tools and Heads) or user-uploaded
+  meshes.
+Category: world
 BaseType: Entity
 Properties:
   - Name: Asset
@@ -125,6 +129,3 @@ IsStatic: false
 IsAbstract: false
 IsInstantiable: true
 StaticAlias: null
-Description: Represents a part that can have custom mesh applied to it, the mesh
-  may be from the Polytoria Store (Hats, Tools and Heads) or user-uploaded
-  meshes.

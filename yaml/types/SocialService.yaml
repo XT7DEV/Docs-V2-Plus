@@ -1,4 +1,6 @@
 Name: SocialService
+Description: WIP Class
+Category: services
 BaseType: Instance
 Properties: []
 Methods: []
@@ -7,4 +9,3 @@ IsStatic: true
 IsAbstract: false
 IsInstantiable: false
 StaticAlias: Social
-Description: WIP Class

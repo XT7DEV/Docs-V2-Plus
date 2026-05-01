@@ -1,5 +1,7 @@
 Name: Tool
-BaseType: PhysicalModel
+Description: Tools are objects that can be held by the player.
+Category: world
+BaseType: RigidBody
 Properties:
   - Name: Droppable
     Type: boolean
@@ -71,4 +73,3 @@ IsStatic: false
 IsAbstract: false
 IsInstantiable: true
 StaticAlias: null
-Description: Tools are objects that can be held by the player.

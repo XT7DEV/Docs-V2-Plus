@@ -1,4 +1,6 @@
 Name: Text3D
+Description: Text3D is a class that represents 3D text in the game world.
+Category: world
 BaseType: Dynamic
 Properties:
   - Name: Text
@@ -84,4 +86,3 @@ IsStatic: false
 IsAbstract: false
 IsInstantiable: true
 StaticAlias: null
-Description: Text3D is a class that represents 3D text in the game world.

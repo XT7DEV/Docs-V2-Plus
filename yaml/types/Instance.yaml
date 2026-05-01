@@ -1,4 +1,7 @@
 Name: Instance
+Description: Instance is the base class of all classes. Every class derives from
+  it and has all properties, events and functions Instance has.
+Category: misc
 BaseType: NetworkedObject
 Properties:
   - Name: Parent
@@ -98,6 +101,17 @@ Methods:
     IsObsolete: false
     IsStatic: false
     Description: Get children with the specified tag
+  - Name: GetDescendantsWithTag
+    ReturnType: "{ Instance }"
+    Parameters:
+      - Name: tag
+        Type: string
+        IsOptional: false
+        DefaultValue: ""
+    IsAsync: false
+    IsObsolete: false
+    IsStatic: false
+    Description: Get descendants with the specified tag
   - Name: FindAncestorByClass
     ReturnType: Instance
     Parameters:
@@ -309,5 +323,3 @@ IsStatic: false
 IsAbstract: true
 IsInstantiable: false
 StaticAlias: null
-Description: Instance is the base class of all classes. Every class derives from
-  it and has all properties, events and functions Instance has.

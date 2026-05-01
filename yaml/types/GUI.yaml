@@ -1,4 +1,6 @@
 Name: GUI
+Description: GUI is a class that is used to create a GUI.
+Category: ui
 BaseType: Instance
 Properties:
   - Name: Visible
@@ -21,4 +23,3 @@ IsStatic: false
 IsAbstract: false
 IsInstantiable: true
 StaticAlias: null
-Description: GUI is a class that is used to create a GUI.

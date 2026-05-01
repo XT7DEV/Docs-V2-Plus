@@ -1,6 +1,22 @@
 Name: CharacterModel
+Description: Base class for Character Models
+Category: world
 BaseType: Dynamic
 Properties:
+  - Name: CurrentState
+    Type: CharacterModelStateEnum
+    IsAccessibleByScripts: true
+    IsReadOnly: false
+    IsObsolete: false
+    IsStatic: false
+    Description: Current state of this character.
+  - Name: CurrentSpeed
+    Type: number
+    IsAccessibleByScripts: true
+    IsReadOnly: false
+    IsObsolete: false
+    IsStatic: false
+    Description: Current state animation speed of this character.
   - Name: Animator
     Type: Animator
     IsAccessibleByScripts: true
@@ -25,4 +41,3 @@ IsStatic: false
 IsAbstract: false
 IsInstantiable: true
 StaticAlias: null
-Description: Base class for Character Models

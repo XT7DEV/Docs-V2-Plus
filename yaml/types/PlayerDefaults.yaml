@@ -1,4 +1,7 @@
 Name: PlayerDefaults
+Description: PlayerDefaults is a service used for storing the default values of
+  the  Player when created.
+Category: game
 BaseType: HiddenBase
 Properties:
   - Name: MaxHealth
@@ -114,6 +117,21 @@ Properties:
     IsStatic: false
     Description: Determines whether the player's appearance is automatically loaded
       by default.
+  - Name: LoadAppearanceTools
+    Type: boolean
+    IsAccessibleByScripts: true
+    IsReadOnly: false
+    IsObsolete: false
+    IsStatic: false
+    Description: Determines whether the player's equippable appearance tool should
+      be loaded.
+  - Name: MovementMode
+    Type: PlayerMovementModeEnum
+    IsAccessibleByScripts: true
+    IsReadOnly: false
+    IsObsolete: false
+    IsStatic: false
+    Description: Determine the movement mode for the player.
 Methods:
   - Name: LoadDefaults
     ReturnType: nil
@@ -127,5 +145,3 @@ IsStatic: true
 IsAbstract: false
 IsInstantiable: false
 StaticAlias: PlayerDefaults
-Description: PlayerDefaults is a service used for storing the default values of
-  the  Player when created.

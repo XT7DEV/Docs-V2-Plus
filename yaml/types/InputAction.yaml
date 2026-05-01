@@ -1,4 +1,6 @@
 Name: InputAction
+Description: Base class for input action
+Category: input
 BaseType: null
 Properties: []
 Methods: []
@@ -7,4 +9,3 @@ IsStatic: false
 IsAbstract: false
 IsInstantiable: false
 StaticAlias: null
-Description: Base class for input action

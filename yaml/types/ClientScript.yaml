@@ -1,4 +1,7 @@
 Name: ClientScript
+Description: ClientScript is a script that runs locally for each player. It can
+  only see what the player can see.
+Category: scripting
 BaseType: Script
 Properties: []
 Methods: []
@@ -7,5 +10,3 @@ IsStatic: false
 IsAbstract: false
 IsInstantiable: true
 StaticAlias: null
-Description: ClientScript is a script that runs locally for each player. It can
-  only see what the player can see.

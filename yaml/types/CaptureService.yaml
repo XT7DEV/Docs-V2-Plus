@@ -1,4 +1,6 @@
 Name: CaptureService
+Description: Service for capturing photos
+Category: services
 BaseType: Instance
 Properties:
   - Name: OnCooldown
@@ -79,4 +81,3 @@ IsStatic: true
 IsAbstract: false
 IsInstantiable: false
 StaticAlias: Capture
-Description: Service for capturing photos

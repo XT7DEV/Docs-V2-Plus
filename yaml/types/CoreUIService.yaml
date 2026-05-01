@@ -1,4 +1,6 @@
 Name: CoreUIService
+Description: CoreUI is a static class that allows for the toggling of certain core GUI.
+Category: services
 BaseType: Instance
 Properties:
   - Name: UseUserCard
@@ -71,4 +73,3 @@ IsStatic: true
 IsAbstract: false
 IsInstantiable: false
 StaticAlias: CoreUI
-Description: CoreUI is a static class that allows for the toggling of certain core GUI.

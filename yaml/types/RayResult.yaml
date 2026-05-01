@@ -1,4 +1,6 @@
 Name: RayResult
+Description: RayResult is a data type that contains data about a raycast result.
+Category: types
 BaseType: null
 Properties:
   - Name: Origin
@@ -49,4 +51,3 @@ IsStatic: false
 IsAbstract: false
 IsInstantiable: false
 StaticAlias: null
-Description: RayResult is a data type that contains data about a raycast result.

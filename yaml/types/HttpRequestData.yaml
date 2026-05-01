@@ -1,4 +1,6 @@
 Name: HttpRequestData
+Description: HttpRequestData represents the data required to construct an HTTP request
+Category: types
 BaseType: null
 Properties:
   - Name: URL
@@ -43,4 +45,3 @@ IsStatic: false
 IsAbstract: false
 IsInstantiable: false
 StaticAlias: null
-Description: HttpRequestData represents the data required to construct an HTTP request

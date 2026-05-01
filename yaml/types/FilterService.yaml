@@ -1,4 +1,6 @@
 Name: FilterService
+Description: FilterService is a service which processes and filter user inputs
+Category: services
 BaseType: Instance
 Properties: []
 Methods:
@@ -18,4 +20,3 @@ IsStatic: true
 IsAbstract: false
 IsInstantiable: false
 StaticAlias: Filter
-Description: FilterService is a service which processes and filter user inputs

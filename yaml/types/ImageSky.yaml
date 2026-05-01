@@ -1,4 +1,9 @@
 Name: ImageSky
+Description: ImageSky is a class that is used to set a custom image skybox in
+  the world. You can set the images used for the individual sides of the skybox
+  by changing the image properties. Any image from the library can be used for
+  the skybox.
+Category: lighting
 BaseType: Sky
 Properties:
   - Name: TopImage
@@ -49,7 +54,3 @@ IsStatic: false
 IsAbstract: false
 IsInstantiable: true
 StaticAlias: null
-Description: ImageSky is a class that is used to set a custom image skybox in
-  the world. You can set the images used for the individual sides of the skybox
-  by changing the image properties. Any image from the library can be used for
-  the skybox.

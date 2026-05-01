@@ -1,4 +1,6 @@
 Name: InputButtonCollection
+Description: A collection of Input Buttons
+Category: input
 BaseType: null
 Properties: []
 Methods:
@@ -29,4 +31,3 @@ IsStatic: false
 IsAbstract: false
 IsInstantiable: false
 StaticAlias: null
-Description: A collection of Input Buttons

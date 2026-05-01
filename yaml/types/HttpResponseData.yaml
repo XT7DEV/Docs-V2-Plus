@@ -1,4 +1,6 @@
 Name: HttpResponseData
+Description: HttpResponseData represents the result of an HTTP request.
+Category: types
 BaseType: null
 Properties:
   - Name: Success
@@ -43,4 +45,3 @@ IsStatic: false
 IsAbstract: false
 IsInstantiable: false
 StaticAlias: null
-Description: HttpResponseData represents the result of an HTTP request.

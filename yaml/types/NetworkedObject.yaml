@@ -1,4 +1,7 @@
 Name: NetworkedObject
+Description: NetworkedObject is a base class for all object that's synchronized
+  by the network.
+Category: networking
 BaseType: null
 Properties:
   - Name: Name
@@ -118,5 +121,3 @@ IsStatic: false
 IsAbstract: true
 IsInstantiable: false
 StaticAlias: null
-Description: NetworkedObject is a base class for all object that's synchronized
-  by the network.

@@ -1,4 +1,6 @@
 Name: MeshAsset
+Description: Base class for mesh assets
+Category: assets
 BaseType: ResourceAsset
 Properties: []
 Methods: []
@@ -7,4 +9,3 @@ IsStatic: false
 IsAbstract: true
 IsInstantiable: false
 StaticAlias: null
-Description: Base class for mesh assets

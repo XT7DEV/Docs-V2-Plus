@@ -1,4 +1,6 @@
 Name: GUI3D
+Description: GUI3D is a class that allows GUI to be displayed in a 3D space.
+Category: ui
 BaseType: Dynamic
 Properties:
   - Name: Shaded
@@ -36,4 +38,3 @@ IsStatic: false
 IsAbstract: false
 IsInstantiable: true
 StaticAlias: null
-Description: GUI3D is a class that allows GUI to be displayed in a 3D space.

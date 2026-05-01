@@ -1,4 +1,6 @@
 Name: BaseAsset
+Description: Base class for all assets
+Category: assets
 BaseType: NetworkedObject
 Properties: []
 Methods: []
@@ -7,4 +9,3 @@ IsStatic: false
 IsAbstract: true
 IsInstantiable: false
 StaticAlias: null
-Description: Base class for all assets

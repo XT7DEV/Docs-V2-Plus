@@ -1,4 +1,6 @@
 Name: Seat
+Description: Seats are parts the player can sit on.
+Category: world
 BaseType: Part
 Properties:
   - Name: Occupant
@@ -41,4 +43,3 @@ IsStatic: false
 IsAbstract: false
 IsInstantiable: true
 StaticAlias: null
-Description: Seats are parts the player can sit on.

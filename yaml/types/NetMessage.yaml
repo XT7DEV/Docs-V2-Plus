@@ -1,4 +1,7 @@
 Name: NetMessage
+Description: Represents a network message used for communication between clients
+  and servers.
+Category: networking
 BaseType: null
 Properties: []
 Methods:
@@ -248,5 +251,3 @@ IsStatic: false
 IsAbstract: false
 IsInstantiable: false
 StaticAlias: null
-Description: Represents a network message used for communication between clients
-  and servers.

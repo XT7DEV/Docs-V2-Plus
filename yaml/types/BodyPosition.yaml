@@ -1,4 +1,7 @@
 Name: BodyPosition
+Description: BodyPosition are objects that apply a force to their parent until
+  they reach the target position.
+Category: physics
 BaseType: Instance
 Properties:
   - Name: TargetPosition
@@ -29,5 +32,3 @@ IsStatic: false
 IsAbstract: false
 IsInstantiable: true
 StaticAlias: null
-Description: BodyPosition are objects that apply a force to their parent until
-  they reach the target position.

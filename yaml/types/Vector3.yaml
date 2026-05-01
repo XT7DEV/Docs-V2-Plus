@@ -1,4 +1,6 @@
 Name: Vector3
+Description: Vector3 is a 3D vector with an x, y and z component.
+Category: types
 BaseType: null
 Properties:
   - Name: X
@@ -377,9 +379,138 @@ Methods:
     IsObsolete: false
     IsStatic: true
     Description: Spherically interpolates between two vectors.
+  - Name: Floor
+    ReturnType: Vector3
+    Parameters:
+      - Name: val
+        Type: Vector3
+        IsOptional: false
+        DefaultValue: ""
+    IsAsync: false
+    IsObsolete: false
+    IsStatic: true
+    Description: Missing Documentation
+  - Name: Ceil
+    ReturnType: Vector3
+    Parameters:
+      - Name: val
+        Type: Vector3
+        IsOptional: false
+        DefaultValue: ""
+    IsAsync: false
+    IsObsolete: false
+    IsStatic: true
+    Description: Missing Documentation
+  - Name: Round
+    ReturnType: Vector3
+    Parameters:
+      - Name: val
+        Type: Vector3
+        IsOptional: false
+        DefaultValue: ""
+    IsAsync: false
+    IsObsolete: false
+    IsStatic: true
+    Description: Missing Documentation
+  - Name: Abs
+    ReturnType: Vector3
+    Parameters:
+      - Name: val
+        Type: Vector3
+        IsOptional: false
+        DefaultValue: ""
+    IsAsync: false
+    IsObsolete: false
+    IsStatic: true
+    Description: Missing Documentation
+  - Name: Sign
+    ReturnType: Vector3
+    Parameters:
+      - Name: val
+        Type: Vector3
+        IsOptional: false
+        DefaultValue: ""
+    IsAsync: false
+    IsObsolete: false
+    IsStatic: true
+    Description: Missing Documentation
+  - Name: Rotated
+    ReturnType: Vector3
+    Parameters:
+      - Name: val
+        Type: Vector3
+        IsOptional: false
+        DefaultValue: ""
+      - Name: axis
+        Type: Vector3
+        IsOptional: false
+        DefaultValue: ""
+      - Name: angle
+        Type: number
+        IsOptional: false
+        DefaultValue: ""
+    IsAsync: false
+    IsObsolete: false
+    IsStatic: true
+    Description: Missing Documentation
+  - Name: LimitLength
+    ReturnType: Vector3
+    Parameters:
+      - Name: val
+        Type: Vector3
+        IsOptional: false
+        DefaultValue: ""
+      - Name: length
+        Type: number
+        IsOptional: false
+        DefaultValue: ""
+    IsAsync: false
+    IsObsolete: false
+    IsStatic: true
+    Description: Missing Documentation
+  - Name: Clamp
+    ReturnType: Vector3
+    Parameters:
+      - Name: val
+        Type: Vector3
+        IsOptional: false
+        DefaultValue: ""
+      - Name: min
+        Type: Vector3
+        IsOptional: false
+        DefaultValue: ""
+      - Name: max
+        Type: Vector3
+        IsOptional: false
+        DefaultValue: ""
+    IsAsync: false
+    IsObsolete: false
+    IsStatic: true
+    Description: Missing Documentation
+  - Name: RadToDeg
+    ReturnType: Vector3
+    Parameters:
+      - Name: val
+        Type: Vector3
+        IsOptional: false
+        DefaultValue: ""
+    IsAsync: false
+    IsObsolete: false
+    IsStatic: true
+    Description: Missing Documentation
+  - Name: DegToRad
+    ReturnType: Vector3
+    Parameters:
+      - Name: val
+        Type: Vector3
+        IsOptional: false
+        DefaultValue: ""
+    IsAsync: false
+    IsObsolete: false
+    IsStatic: true
+    Description: Missing Documentation
 Events: []
 IsStatic: false
 IsAbstract: false
 IsInstantiable: false
 StaticAlias: null
-Description: Vector3 is a 3D vector with an x, y and z component.

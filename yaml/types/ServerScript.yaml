@@ -1,4 +1,6 @@
 Name: ServerScript
+Description: ServerScript is a script that runs on the server.
+Category: scripting
 BaseType: Script
 Properties: []
 Methods: []
@@ -7,4 +9,3 @@ IsStatic: false
 IsAbstract: false
 IsInstantiable: true
 StaticAlias: null
-Description: ServerScript is a script that runs on the server.

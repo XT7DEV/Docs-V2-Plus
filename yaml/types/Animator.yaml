@@ -1,4 +1,6 @@
 Name: Animator
+Description: WIP class
+Category: world
 BaseType: Instance
 Properties:
   - Name: CurrentAnimation
@@ -50,4 +52,3 @@ IsStatic: false
 IsAbstract: false
 IsInstantiable: true
 StaticAlias: null
-Description: WIP class

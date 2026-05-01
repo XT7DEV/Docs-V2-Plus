@@ -1,4 +1,9 @@
 Name: Color
+Description: >-
+  Color is a data type that represents a color.
+    
+    The alpha property is between 0 and 1. 0 is fully transparent and 1 is fully visible.
+Category: types
 BaseType: null
 Properties:
   - Name: R
@@ -97,6 +102,29 @@ Methods:
     IsObsolete: false
     IsStatic: true
     Description: Returns a random color with an alpha value of 1.
+  - Name: FromRGB
+    ReturnType: Color
+    Parameters:
+      - Name: r
+        Type: number
+        IsOptional: false
+        DefaultValue: ""
+      - Name: g
+        Type: number
+        IsOptional: false
+        DefaultValue: ""
+      - Name: b
+        Type: number
+        IsOptional: false
+        DefaultValue: ""
+      - Name: a
+        Type: number
+        IsOptional: true
+        DefaultValue: "1"
+    IsAsync: false
+    IsObsolete: false
+    IsStatic: true
+    Description: Creates a new Color from the specified RGBA value.
   - Name: FromHex
     ReturnType: Color
     Parameters:
@@ -166,7 +194,3 @@ IsStatic: false
 IsAbstract: false
 IsInstantiable: false
 StaticAlias: null
-Description: >-
-  Color is a data type that represents a color.
-    
-    The alpha property is between 0 and 1. 0 is fully transparent and 1 is fully visible.

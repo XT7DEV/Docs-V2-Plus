@@ -1,4 +1,7 @@
 Name: PointLight
+Description: PointLight is a type of light that emits light in all directions
+  from a single point.
+Category: lighting
 BaseType: Light
 Properties:
   - Name: Range
@@ -14,5 +17,3 @@ IsStatic: false
 IsAbstract: false
 IsInstantiable: true
 StaticAlias: null
-Description: PointLight is a type of light that emits light in all directions
-  from a single point.

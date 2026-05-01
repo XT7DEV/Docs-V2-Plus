@@ -1,4 +1,7 @@
 Name: Grabbable
+Description: Grabbable represents a object that can be dragged by user. It can
+  be parented to Physical to give user ability to drag that object.
+Category: physics
 BaseType: Instance
 Properties:
   - Name: Force
@@ -89,5 +92,3 @@ IsStatic: false
 IsAbstract: false
 IsInstantiable: true
 StaticAlias: null
-Description: Grabbable represents a object that can be dragged by user. It can
-  be parented to Physical to give user ability to drag that object.

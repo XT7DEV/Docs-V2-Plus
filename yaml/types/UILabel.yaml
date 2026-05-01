@@ -1,4 +1,6 @@
 Name: UILabel
+Description: UILabel is a class that can be used to display text.
+Category: ui
 BaseType: UIView
 Properties:
   - Name: Text
@@ -84,4 +86,3 @@ IsStatic: false
 IsAbstract: false
 IsInstantiable: true
 StaticAlias: null
-Description: UILabel is a class that can be used to display text.

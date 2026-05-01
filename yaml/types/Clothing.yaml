@@ -1,4 +1,6 @@
 Name: Clothing
+Description: Clothing represents a clothing that can be applied to a PolytorianModel
+Category: world
 BaseType: Instance
 Properties:
   - Name: Image
@@ -14,4 +16,3 @@ IsStatic: false
 IsAbstract: false
 IsInstantiable: true
 StaticAlias: null
-Description: Clothing represents a clothing that can be applied to a PolytorianModel
