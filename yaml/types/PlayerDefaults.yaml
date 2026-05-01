@@ -123,7 +123,8 @@ Properties:
     IsReadOnly: false
     IsObsolete: false
     IsStatic: false
-    Description: Determines whether the player's equippable appearance tool should be loaded.
+    Description: Determines whether the player's equippable appearance tool should
+      be loaded.
   - Name: MovementMode
     Type: PlayerMovementModeEnum
     IsAccessibleByScripts: true

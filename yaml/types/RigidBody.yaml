@@ -1,5 +1,6 @@
 Name: RigidBody
-Description: RigidBody is the base class for object affected by physics, and can also be used as a container for other physics objects.
+Description: RigidBody is the base class for object affected by physics, and can
+  also be used as a container for other physics objects.
 Category: physics
 BaseType: Physical
 Properties:
