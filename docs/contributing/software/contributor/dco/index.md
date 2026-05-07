@@ -1,6 +1,6 @@
 ---
 title: DCO Requirements
-weight: 1
+weight: 2
 ---
 
 # DCO Requirements
