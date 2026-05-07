@@ -1,11 +1,11 @@
 ---
-title: Exporting Software
+title: Exporting
 weight: 6
 ---
 
-# Exporting Software
+# Exporting the Project
 
-This page will guide you on how to build and export the final software.
+This page will guide you on how to build and export the final project.
 
 1. On the root folder, Navigate to `Polytoria` (The Godot project)
 2. Duplicate `export_presets.cfg.template` and rename it to `export_presets.cfg`

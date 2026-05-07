@@ -1,11 +1,11 @@
 ---
-title: Launching Clients
+title: Client/Server
 weight: 2
 ---
 
-# Launching Clients
+# Launching the Client and Server
 
-This guide walks you through how to run Polytoria Client locally for development.
+This guide walks you through how to run the Polytoria Client and Server locally for development. In this guide specifically, we will be launching one server instance and one client instance, but you can launch as many clients as you want!
 
 1. Go to Debug > Customize Run Instances
 
@@ -30,7 +30,7 @@ Instance 2:
 ```
 
 !!! tip "About the ID"
-    The ID can also be your user ID!
+    The ID refers to the user ID of the account you want to playtest with. You can find your user ID by going to [settings](https://polytoria.com/my/settings), scrolling down to the bottom until you see "Player ID".
 
 !!! failure "About Feature tags"
     Make sure the feature tags does not contain other entry flags (or just keep it empty!), we don't need them in client launching.

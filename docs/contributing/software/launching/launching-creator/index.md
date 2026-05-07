@@ -1,9 +1,9 @@
 ---
-title: Launching Creator
+title: Creator
 weight: 3
 ---
 
-# Launching Creator
+# Launching the Creator
 
 This guide walks you through how to run Polytoria Creator locally for development.
 
