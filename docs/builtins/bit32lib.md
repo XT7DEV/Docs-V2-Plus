@@ -3,7 +3,7 @@ title: Bit32 Library
 weight: 5
 ---
 
-All functions in the `bit32` library treat input numbers as 32-bit unsigned integers in `[0..4294967295]` range. The bit positions start at 0 where 0 corresponds to the least significant bit.
+All functions in the `bit32` library treat input numbers as 32-bit unsigned integers in `[0..4294967295]` range. The bit positions start at 0, where 0 corresponds to the least significant bit.
 
 ```
 function bit32.arshift(n: number, i: number): number
