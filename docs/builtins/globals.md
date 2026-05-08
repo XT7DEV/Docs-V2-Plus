@@ -19,7 +19,7 @@ local product = 5 * 5
 assert(product == 25, "The math is dead")
 ```
 
-This will do nothing `25` because 5 x 5 is 25
+This will do nothing because 5 x 5 is 25
 
 ```lua
 local product = 5 * 5
@@ -37,7 +37,7 @@ error(obj: any, level: number?)
 ```
 
 When called `error` will raise an error (duh) with the specified object `obj`.
-When `level` is specified, the error raised is turned into a string that contains call frame information for the caller at level `level`, where `1` refersto the function that called `error`. This can be useful to attribute the errors to callers, for example `error("Expected a valid object", 2)` highlights the caller of the function that called `error` instead of the function itself in the callstack.
+When `level` is specified, the error raised is turned into a string that contains call frame information for the caller at level `level`, where `1` refers to the function that called `error`. This can be useful to attribute the errors to callers, for example `error("Expected a valid object", 2)` highlights the caller of the function that called `error` instead of the function itself in the callstack.
 
 **Example**
 
