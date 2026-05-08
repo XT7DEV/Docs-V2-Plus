@@ -64,33 +64,6 @@ consumption from the operating system perspective and can fluctuate over time as
 local value = gcinfo()
 print(value)
 ```
-
----
-
-### getfenv
-
-<div data-search-exclude markdown>
-
-!!! warning "Warning!"
-    This can introduce security vulnerabilities! Use at your own risk!
-
-</div>
-
-```lua
-getfenv(target: (function | number)?): table
-```
-
-Returns the environment table for target function; when `target` is not a function, it must be a number corresponding to the caller stack index, where 1 means the function that calls `getfenv`, and the environment table is returned for the corresponding function from the call stack. When `target` is omitted it defaults to `1`, so `getfenv()` returns the environment table for the calling function.
-
-**Example**
-
-```lua
-local funcenv = getfenv(1)
-print(funcenv)
-```
-
-This will return the environment table for target function which in this case is the script
-
 ---
 
 ### getmetatable
@@ -164,16 +137,6 @@ end
 
 clone({"Hi"})
 ```
-
----
-
-### newproxy
-
-```lua
-newproxy(mt: boolean?): userdata
-```
-
-Creates a new untyped userdata object; when `mt` is true, the new object has an empty metatable that can be modified using `getmetatable`.
 
 ---
 
@@ -292,23 +255,6 @@ select(i: number, args: ...T): ...T
 
 When called with `'#'` as the first argument, returns the number of remaining parameters passed. Otherwise, returns the subset of parameters starting with the specified index.
 Index can be specified from the start of the arguments (using 1 as the first argument), or from the end (using -1 as the last argument).
-
----
-
-### setfenv
-
-<div data-search-exclude markdown>
-
-!!! warning "Warning!"
-    This can introduce security vulnerabilities! Use at your own risk!
-
-</div>
-
-```lua
-setfenv(target: function | number, env: table)
-```
-
-Changes the environment table for target function to `env`; when `target` is not a function, it must be a number corresponding to the caller stack index, where 1 means the function that calls `setfenv`, and the environment table is returned for the corresponding function from the call stack.
 
 ---
 
